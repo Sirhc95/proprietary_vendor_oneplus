@@ -124,6 +124,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libantradio \
     com.qualcomm.qti.ant@1.0 \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
     NxpNfcNci \
     NxpSecureElement \
     SoterService \
