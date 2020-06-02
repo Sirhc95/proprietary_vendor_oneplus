@@ -14,3 +14,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus8/proprietary/bin/dashd:$(TARGET_COPY_OUT_SYSTEM)/bin/dashd
+
+PRODUCT_PACKAGES += \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON
