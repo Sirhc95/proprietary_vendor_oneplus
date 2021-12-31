@@ -168,6 +168,4 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.ant@1.0 \
     NxpNfcNci \
     NxpSecureElement \
-    SoterService \
-    HotwordEnrollmentOKGoogleWCD9340 \
-    HotwordEnrollmentXGoogleWCD9340
+    SoterService
