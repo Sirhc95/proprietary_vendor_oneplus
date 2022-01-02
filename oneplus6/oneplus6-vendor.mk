@@ -1321,24 +1321,18 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
-    libqct_resampler \
     CACertService \
     CneApp \
     IWlanService \
     QFingerprintService \
     TimeService \
     PowerOffAlarm \
-    AndroidAutoStub \
     HotwordEnrollmentOKGoogleWCD9340_SDM845 \
     HotwordEnrollmentXGoogleWCD9340_SDM845 \
     NxpNfcNci \
     NxpSecureElement \
-    QtiTelephonyService \
-    uceShimService \
     MotoDolbyV3 \
     daxService \
-    ims \
-    qcrilmsgtunnel \
     qcnvitems \
     vendor.oneplus.hardware.camera-V1.0-java \
     android.hardware.gnss@2.1-service-qti \
