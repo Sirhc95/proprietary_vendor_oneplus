@@ -5,11 +5,17 @@
         <Parameter id="3" name="Tonal Balance" defaultValue="0"/>
       </Parameters>
       <Modes>
-        <Mode name="Area0">
+        <Mode name="Area1">
           <Parameter id="3" value="0"/>
         </Mode>
-        <Mode name="Area1">
+        <Mode name="Area1_movie">
+          <Parameter id="3" value="-1"/>
+        </Mode>
+        <Mode name="Area2">
           <Parameter id="3" value="1"/>
+        </Mode>
+        <Mode name="Area2_movie">
+          <Parameter id="3" value="0.5"/>
         </Mode>
       </Modes>
     </Usecase>
