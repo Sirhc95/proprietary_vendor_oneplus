@@ -1251,6 +1251,52 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus6/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
     vendor/oneplus/oneplus6/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql
 
+# Oneplus 6T Fingerprint Blobs
+PRODUCT_COPY_FILES += \
+    vendor/oneplus/oneplus6/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
+    vendor/oneplus/oneplus6/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
+    vendor/oneplus/oneplus6/proprietary/vendor/etc/firmware/tp/fw_synaptics_17819.img:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tp/fw_synaptics_17819.img \
+    vendor/oneplus/oneplus6/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/oneplus/oneplus6/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib/fp_hal_extension.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/fpc_hal_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/fpc_hal_common.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/fpc_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib/fpc_hal_extension.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/fpc_tac.so:$(TARGET_COPY_OUT_VENDOR)/lib/fpc_tac.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/hw/fingerprint.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.sdm845.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/hw/goodix.fingerprint.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/goodix.fingerprint.sdm845.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_ca.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_hal.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/libgf_ud_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_ud_hal.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgoodixfingerprintd_binder.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/libsl_fp_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_algo.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_impl.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/libsl_fp_impl_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_impl_util.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/libsl_fp_nosec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_nosec.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/libsl_fp_prepro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_prepro.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fingerprint@1.0.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fp_hal_extension.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/fpc_hal_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fpc_hal_common.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/fpc_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fpc_hal_extension.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/fpc_tac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fpc_tac.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/hw/fingerprint.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.sdm845.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/hw/goodix.fingerprint.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/goodix.fingerprint.sdm845.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libgf_ud_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ud_hal.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixfingerprintd_binder.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libqfp-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp-service.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsl_fp_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_algo.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_impl.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsl_fp_impl_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_impl_util.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsl_fp_nosec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_nosec.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/libsl_fp_prepro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_prepro.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/vendor.oneplus.fingerprint.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oneplus.fingerprint.extension@1.0.so \
+    vendor/oneplus/oneplus6/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fingerprint@1.0.so
+
 PRODUCT_PACKAGES += \
     libfastcvopt \
     CACertService \
@@ -1262,6 +1308,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleWCD9340_SDM845 \
     NxpNfcNci \
     NxpSecureElement \
+    QFingerprintService \
     qcnvitems \
     vendor.oneplus.hardware.camera-V1.0-java \
     android.hardware.gnss@2.1-service-qti \
